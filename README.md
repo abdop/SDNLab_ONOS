@@ -40,7 +40,7 @@ There are 6 docker images you need for this laboratory. Those are:
 
     For the remainng images, it is easier if you copy the contents of
     the
-    [docker-images](https://github.com/jorgelopezcoronado/SDNLab/tree/master/docker-images)
+    [docker-images](https://github.com/abdop/SDNLab_ONOS/tree/master/docker-images)
     found in this repository. You can download via http or git. Change
     to that directory (`cd docker-images`).
 
@@ -131,7 +131,7 @@ Inside the container, to run the intended topology, execute the
 following commands:
 
             mn -c;
-            curl https://raw.githubusercontent.com/jorgelopezcoronado/SDNLab/master/custom_ctnnet_topology.py > cmnt.py;
+            curl https://raw.githubusercontent.com/abdop/SDNLab_ONOS/master/custom_ctnnet_topology.py > cmnt.py;
             python cmnt.py
         
 
