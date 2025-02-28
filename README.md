@@ -115,7 +115,7 @@ Install [docker-compose](https://docs.docker.com/compose/install/).
 
 After that, execute the docker *composition* with:
 
-        docker-compose up
+        docker compose up
         
 
 You may choose to execute it in detached mode (by adding `-d` flag to the
